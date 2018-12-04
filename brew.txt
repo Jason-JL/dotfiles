@@ -1,0 +1,17 @@
+iterm2
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k # Install a patched font
+zsh-syntax-highlighting
+zsh-autosuggestions
+https://raw.githubusercontent.com/Homebrew/homebrew-core/f2a764ef944b1080be64bd88dca9a1d80130c558/Formula/python.rb
+
+# cask
+launchbar
+google-chrome
+pycharm
+onedrive
+microsoft-office
+
+# brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+xargs brew install < brew.txt
